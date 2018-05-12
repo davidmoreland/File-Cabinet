@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CD_New" targetNamespace="http://www.tempuri.org/CD_New.xsd" xmlns:mstns="http://www.tempuri.org/CD_New.xsd" xmlns="http://www.tempuri.org/CD_New.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="cdCat1ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="cdCat1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CD_catalog_2._1._1.Properties.Settings.GlobalReference.Default.cdCat1ConnectionString" Provider="Microsoft.SqlServerCe.Client.3.5" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CD_New" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CD_New" msprop:Generator_DataSetName="CD_New">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CD_Originals" msprop:Generator_UserTableName="CD_Originals" msprop:Generator_RowDeletedName="CD_OriginalsRowDeleted" msprop:Generator_RowChangedName="CD_OriginalsRowChanged" msprop:Generator_RowClassName="CD_OriginalsRow" msprop:Generator_RowChangingName="CD_OriginalsRowChanging" msprop:Generator_RowEvArgName="CD_OriginalsRowChangeEvent" msprop:Generator_RowEvHandlerName="CD_OriginalsRowChangeEventHandler" msprop:Generator_TableClassName="CD_OriginalsDataTable" msprop:Generator_TableVarName="tableCD_Originals" msprop:Generator_RowDeletingName="CD_OriginalsRowDeleting" msprop:Generator_TablePropName="CD_Originals">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cdFILE_Number" msprop:Generator_UserColumnName="cdFILE_Number" msprop:Generator_ColumnVarNameInTable="columncdFILE_Number" msprop:Generator_ColumnPropNameInRow="cdFILE_Number" msprop:Generator_ColumnPropNameInTable="cdFILE_NumberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="cdName" msprop:Generator_UserColumnName="cdName" msprop:Generator_ColumnVarNameInTable="columncdName" msprop:Generator_ColumnPropNameInRow="cdName" msprop:Generator_ColumnPropNameInTable="cdNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cdNumber" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="cdNumber" msprop:Generator_ColumnVarNameInTable="columncdNumber" msprop:Generator_ColumnPropNameInRow="cdNumber" msprop:Generator_ColumnPropNameInTable="cdNumberColumn" type="xs:int" />
+              <xs:element name="Date_Dreated" msprop:Generator_UserColumnName="Date_Dreated" msprop:Generator_ColumnVarNameInTable="columnDate_Dreated" msprop:Generator_ColumnPropNameInRow="Date_Dreated" msprop:Generator_ColumnPropNameInTable="Date_DreatedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DIRECTORIES" msprop:Generator_UserColumnName="DIRECTORIES" msprop:Generator_ColumnVarNameInTable="columnDIRECTORIES" msprop:Generator_ColumnPropNameInRow="DIRECTORIES" msprop:Generator_ColumnPropNameInTable="DIRECTORIESColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FILE_Number" msprop:Generator_UserColumnName="FILE_Number" msprop:Generator_ColumnVarNameInTable="columnFILE_Number" msprop:Generator_ColumnPropNameInRow="FILE_Number" msprop:Generator_ColumnPropNameInTable="FILE_NumberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FILES" msprop:Generator_UserColumnName="FILES" msprop:Generator_ColumnVarNameInTable="columnFILES" msprop:Generator_ColumnPropNameInRow="FILES" msprop:Generator_ColumnPropNameInTable="FILESColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="User_Given_Name" msprop:Generator_UserColumnName="User_Given_Name" msprop:Generator_ColumnVarNameInTable="columnUser_Given_Name" msprop:Generator_ColumnPropNameInRow="User_Given_Name" msprop:Generator_ColumnPropNameInTable="User_Given_NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CD_Originals" />
+      <xs:field xpath="mstns:cdNumber" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
